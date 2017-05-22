@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185D888A1ECE9349005948B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D88891ECE9349005948B7 /* main.m */; };
+		185D888D1ECE9349005948B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D888C1ECE9349005948B7 /* AppDelegate.m */; };
+		185D88901ECE9349005948B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D888F1ECE9349005948B7 /* ViewController.m */; };
+		185D88931ECE9349005948B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D88911ECE9349005948B7 /* Main.storyboard */; };
+		185D88951ECE9349005948B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185D88941ECE9349005948B7 /* Assets.xcassets */; };
+		185D88981ECE9349005948B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D88961ECE9349005948B7 /* LaunchScreen.storyboard */; };
+		185D88A31ECE9349005948B7 /* NSProxy_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D88A21ECE9349005948B7 /* NSProxy_______Tests.m */; };
+		185D88AE1ECE9349005948B7 /* NSProxy_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D88AD1ECE9349005948B7 /* NSProxy_______UITests.m */; };
+		185D88BD1ECE9397005948B7 /* HttpProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D88BC1ECE9397005948B7 /* HttpProxy.m */; };
+		185D88C01ECE9721005948B7 /* UserLoginHttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D88BF1ECE9721005948B7 /* UserLoginHttpHandler.m */; };
+		185D88C31ECE9736005948B7 /* UserRegesterHttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D88C21ECE9736005948B7 /* UserRegesterHttpHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185D889F1ECE9349005948B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185D887D1ECE9349005948B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185D88841ECE9349005948B7;
+			remoteInfo = "NSProxy-用于网络接口";
+		};
+		185D88AA1ECE9349005948B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185D887D1ECE9349005948B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185D88841ECE9349005948B7;
+			remoteInfo = "NSProxy-用于网络接口";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185D88851ECE9349005948B7 /* NSProxy-用于网络接口.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSProxy-用于网络接口.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185D88891ECE9349005948B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185D888B1ECE9349005948B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185D888C1ECE9349005948B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185D888E1ECE9349005948B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185D888F1ECE9349005948B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185D88921ECE9349005948B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185D88941ECE9349005948B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185D88971ECE9349005948B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185D88991ECE9349005948B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185D889E1ECE9349005948B7 /* NSProxy-用于网络接口Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSProxy-用于网络接口Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185D88A21ECE9349005948B7 /* NSProxy_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSProxy_______Tests.m"; sourceTree = "<group>"; };
+		185D88A41ECE9349005948B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185D88A91ECE9349005948B7 /* NSProxy-用于网络接口UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSProxy-用于网络接口UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185D88AD1ECE9349005948B7 /* NSProxy_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSProxy_______UITests.m"; sourceTree = "<group>"; };
+		185D88AF1ECE9349005948B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185D88BB1ECE9397005948B7 /* HttpProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpProxy.h; sourceTree = "<group>"; };
+		185D88BC1ECE9397005948B7 /* HttpProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpProxy.m; sourceTree = "<group>"; };
+		185D88BE1ECE9721005948B7 /* UserLoginHttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginHttpHandler.h; sourceTree = "<group>"; };
+		185D88BF1ECE9721005948B7 /* UserLoginHttpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginHttpHandler.m; sourceTree = "<group>"; };
+		185D88C11ECE9736005948B7 /* UserRegesterHttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegesterHttpHandler.h; sourceTree = "<group>"; };
+		185D88C21ECE9736005948B7 /* UserRegesterHttpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegesterHttpHandler.m; sourceTree = "<group>"; };
+		185D88C41ECE9777005948B7 /* LoginHttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHttpHandler.h; sourceTree = "<group>"; };
+		185D88C51ECE9786005948B7 /* RegesterHttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegesterHttpHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185D88821ECE9349005948B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D889B1ECE9349005948B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D88A61ECE9349005948B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185D887C1ECE9349005948B7 = {
+			isa = PBXGroup;
+			children = (
+				185D88871ECE9349005948B7 /* NSProxy-用于网络接口 */,
+				185D88A11ECE9349005948B7 /* NSProxy-用于网络接口Tests */,
+				185D88AC1ECE9349005948B7 /* NSProxy-用于网络接口UITests */,
+				185D88861ECE9349005948B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185D88861ECE9349005948B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185D88851ECE9349005948B7 /* NSProxy-用于网络接口.app */,
+				185D889E1ECE9349005948B7 /* NSProxy-用于网络接口Tests.xctest */,
+				185D88A91ECE9349005948B7 /* NSProxy-用于网络接口UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185D88871ECE9349005948B7 /* NSProxy-用于网络接口 */ = {
+			isa = PBXGroup;
+			children = (
+				185D888B1ECE9349005948B7 /* AppDelegate.h */,
+				185D888C1ECE9349005948B7 /* AppDelegate.m */,
+				185D888E1ECE9349005948B7 /* ViewController.h */,
+				185D888F1ECE9349005948B7 /* ViewController.m */,
+				185D88C71ECE97AD005948B7 /* protocolIMP */,
+				185D88C61ECE9798005948B7 /* HttpProxy */,
+				185D88C81ECE97D4005948B7 /* protocolHeader */,
+				185D88911ECE9349005948B7 /* Main.storyboard */,
+				185D88941ECE9349005948B7 /* Assets.xcassets */,
+				185D88961ECE9349005948B7 /* LaunchScreen.storyboard */,
+				185D88991ECE9349005948B7 /* Info.plist */,
+				185D88881ECE9349005948B7 /* Supporting Files */,
+			);
+			path = "NSProxy-用于网络接口";
+			sourceTree = "<group>";
+		};
+		185D88881ECE9349005948B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185D88891ECE9349005948B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185D88A11ECE9349005948B7 /* NSProxy-用于网络接口Tests */ = {
+			isa = PBXGroup;
+			children = (
+				185D88A21ECE9349005948B7 /* NSProxy_______Tests.m */,
+				185D88A41ECE9349005948B7 /* Info.plist */,
+			);
+			path = "NSProxy-用于网络接口Tests";
+			sourceTree = "<group>";
+		};
+		185D88AC1ECE9349005948B7 /* NSProxy-用于网络接口UITests */ = {
+			isa = PBXGroup;
+			children = (
+				185D88AD1ECE9349005948B7 /* NSProxy_______UITests.m */,
+				185D88AF1ECE9349005948B7 /* Info.plist */,
+			);
+			path = "NSProxy-用于网络接口UITests";
+			sourceTree = "<group>";
+		};
+		185D88C61ECE9798005948B7 /* HttpProxy */ = {
+			isa = PBXGroup;
+			children = (
+				185D88BB1ECE9397005948B7 /* HttpProxy.h */,
+				185D88BC1ECE9397005948B7 /* HttpProxy.m */,
+			);
+			name = HttpProxy;
+			sourceTree = "<group>";
+		};
+		185D88C71ECE97AD005948B7 /* protocolIMP */ = {
+			isa = PBXGroup;
+			children = (
+				185D88BE1ECE9721005948B7 /* UserLoginHttpHandler.h */,
+				185D88BF1ECE9721005948B7 /* UserLoginHttpHandler.m */,
+				185D88C11ECE9736005948B7 /* UserRegesterHttpHandler.h */,
+				185D88C21ECE9736005948B7 /* UserRegesterHttpHandler.m */,
+			);
+			name = protocolIMP;
+			sourceTree = "<group>";
+		};
+		185D88C81ECE97D4005948B7 /* protocolHeader */ = {
+			isa = PBXGroup;
+			children = (
+				185D88C41ECE9777005948B7 /* LoginHttpHandler.h */,
+				185D88C51ECE9786005948B7 /* RegesterHttpHandler.h */,
+			);
+			name = protocolHeader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185D88841ECE9349005948B7 /* NSProxy-用于网络接口 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185D88B21ECE934A005948B7 /* Build configuration list for PBXNativeTarget "NSProxy-用于网络接口" */;
+			buildPhases = (
+				185D88811ECE9349005948B7 /* Sources */,
+				185D88821ECE9349005948B7 /* Frameworks */,
+				185D88831ECE9349005948B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSProxy-用于网络接口";
+			productName = "NSProxy-用于网络接口";
+			productReference = 185D88851ECE9349005948B7 /* NSProxy-用于网络接口.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185D889D1ECE9349005948B7 /* NSProxy-用于网络接口Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185D88B51ECE934A005948B7 /* Build configuration list for PBXNativeTarget "NSProxy-用于网络接口Tests" */;
+			buildPhases = (
+				185D889A1ECE9349005948B7 /* Sources */,
+				185D889B1ECE9349005948B7 /* Frameworks */,
+				185D889C1ECE9349005948B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185D88A01ECE9349005948B7 /* PBXTargetDependency */,
+			);
+			name = "NSProxy-用于网络接口Tests";
+			productName = "NSProxy-用于网络接口Tests";
+			productReference = 185D889E1ECE9349005948B7 /* NSProxy-用于网络接口Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185D88A81ECE9349005948B7 /* NSProxy-用于网络接口UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185D88B81ECE934A005948B7 /* Build configuration list for PBXNativeTarget "NSProxy-用于网络接口UITests" */;
+			buildPhases = (
+				185D88A51ECE9349005948B7 /* Sources */,
+				185D88A61ECE9349005948B7 /* Frameworks */,
+				185D88A71ECE9349005948B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185D88AB1ECE9349005948B7 /* PBXTargetDependency */,
+			);
+			name = "NSProxy-用于网络接口UITests";
+			productName = "NSProxy-用于网络接口UITests";
+			productReference = 185D88A91ECE9349005948B7 /* NSProxy-用于网络接口UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185D887D1ECE9349005948B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Chuckie;
+				TargetAttributes = {
+					185D88841ECE9349005948B7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+					};
+					185D889D1ECE9349005948B7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185D88841ECE9349005948B7;
+					};
+					185D88A81ECE9349005948B7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9952GK694Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185D88841ECE9349005948B7;
+					};
+				};
+			};
+			buildConfigurationList = 185D88801ECE9349005948B7 /* Build configuration list for PBXProject "NSProxy-用于网络接口" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185D887C1ECE9349005948B7;
+			productRefGroup = 185D88861ECE9349005948B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185D88841ECE9349005948B7 /* NSProxy-用于网络接口 */,
+				185D889D1ECE9349005948B7 /* NSProxy-用于网络接口Tests */,
+				185D88A81ECE9349005948B7 /* NSProxy-用于网络接口UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185D88831ECE9349005948B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D88981ECE9349005948B7 /* LaunchScreen.storyboard in Resources */,
+				185D88951ECE9349005948B7 /* Assets.xcassets in Resources */,
+				185D88931ECE9349005948B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D889C1ECE9349005948B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D88A71ECE9349005948B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185D88811ECE9349005948B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D88C31ECE9736005948B7 /* UserRegesterHttpHandler.m in Sources */,
+				185D88BD1ECE9397005948B7 /* HttpProxy.m in Sources */,
+				185D88901ECE9349005948B7 /* ViewController.m in Sources */,
+				185D888D1ECE9349005948B7 /* AppDelegate.m in Sources */,
+				185D888A1ECE9349005948B7 /* main.m in Sources */,
+				185D88C01ECE9721005948B7 /* UserLoginHttpHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D889A1ECE9349005948B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D88A31ECE9349005948B7 /* NSProxy_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185D88A51ECE9349005948B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185D88AE1ECE9349005948B7 /* NSProxy_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185D88A01ECE9349005948B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185D88841ECE9349005948B7 /* NSProxy-用于网络接口 */;
+			targetProxy = 185D889F1ECE9349005948B7 /* PBXContainerItemProxy */;
+		};
+		185D88AB1ECE9349005948B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185D88841ECE9349005948B7 /* NSProxy-用于网络接口 */;
+			targetProxy = 185D88AA1ECE9349005948B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185D88911ECE9349005948B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185D88921ECE9349005948B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185D88961ECE9349005948B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185D88971ECE9349005948B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185D88B01ECE934A005948B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185D88B11ECE934A005948B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185D88B31ECE934A005948B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "NSProxy-用于网络接口/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.NSProxy-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185D88B41ECE934A005948B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "NSProxy-用于网络接口/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.NSProxy-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185D88B61ECE934A005948B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "NSProxy-用于网络接口Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.NSProxy-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProxy-用于网络接口.app/NSProxy-用于网络接口";
+			};
+			name = Debug;
+		};
+		185D88B71ECE934A005948B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "NSProxy-用于网络接口Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.NSProxy-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSProxy-用于网络接口.app/NSProxy-用于网络接口";
+			};
+			name = Release;
+		};
+		185D88B91ECE934A005948B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "NSProxy-用于网络接口UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.NSProxy-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSProxy-用于网络接口";
+			};
+			name = Debug;
+		};
+		185D88BA1ECE934A005948B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9952GK694Z;
+				INFOPLIST_FILE = "NSProxy-用于网络接口UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AIATechnologySharedServices.NSProxy-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSProxy-用于网络接口";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185D88801ECE9349005948B7 /* Build configuration list for PBXProject "NSProxy-用于网络接口" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D88B01ECE934A005948B7 /* Debug */,
+				185D88B11ECE934A005948B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185D88B21ECE934A005948B7 /* Build configuration list for PBXNativeTarget "NSProxy-用于网络接口" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D88B31ECE934A005948B7 /* Debug */,
+				185D88B41ECE934A005948B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185D88B51ECE934A005948B7 /* Build configuration list for PBXNativeTarget "NSProxy-用于网络接口Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D88B61ECE934A005948B7 /* Debug */,
+				185D88B71ECE934A005948B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185D88B81ECE934A005948B7 /* Build configuration list for PBXNativeTarget "NSProxy-用于网络接口UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185D88B91ECE934A005948B7 /* Debug */,
+				185D88BA1ECE934A005948B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185D887D1ECE9349005948B7 /* Project object */;
+}
